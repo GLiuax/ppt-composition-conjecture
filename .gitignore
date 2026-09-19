@@ -1,0 +1,7 @@
+# Publish only the current PRL manuscript package from this working directory.
+*
+!.gitignore
+!README.md
+!qubit_anywhere_prl.tex
+!qubit_anywhere_prl.bib
+!qubit_anywhere_prl.pdf
