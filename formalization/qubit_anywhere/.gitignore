@@ -3,3 +3,8 @@ lake-manifest.json
 *.olean
 *.ilean
 *.trace
+
+# Python and operating-system caches
+__pycache__/
+*.py[cod]
+.DS_Store
