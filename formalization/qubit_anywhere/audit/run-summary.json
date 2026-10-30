@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-29",
+  "project_module_count": 58,
+  "clean_source_build": "passed",
+  "definition_and_boundary_proofs": "passed",
+  "project_and_audit_axiom_check": "passed",
+  "kernel_replay_command": "leanchecker --fresh PPTQubit",
+  "kernel_replay": "passed",
+  "declaration_count": 794,
+  "theorem_declaration_count": 599,
+  "required_dependency_modules": 2558,
+  "matched_dependency_artifacts": 10232,
+  "dependency_artifact_mismatches": 0,
+  "source_inventories_match": true,
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "coverage_gaps_completed": [
+    "rectangular arbitrary-length chain",
+    "Schmidt-number-at-most-two measurement effect",
+    "general principal-block structure"
+  ],
+  "full_lake_installation_tested": false
+}

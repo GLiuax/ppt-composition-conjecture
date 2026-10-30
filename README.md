@@ -67,6 +67,9 @@ and separability of positive operators with equal diagonal blocks.
 - [Manuscript PDF](<A Qubit Forbids Entanglement Swapping between PPT Links.pdf>).
 - [LaTeX source](<A Qubit Forbids Entanglement Swapping between PPT Links.tex>),
   including the bibliography and complete Supplemental Material.
+- [Lean 4 formalization](formalization/qubit_anywhere/README.md), including
+  machine-checked proofs, verification instructions, and the Apache 2.0
+  license for the formalization directory.
 
 From this directory, compile with
 

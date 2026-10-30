@@ -1,6 +1,11 @@
-# Publish only the current manuscript package from this working directory.
+# Publish the manuscript package and the Lean formalization only.
 *
 !.gitignore
 !README.md
 !A Qubit Forbids Entanglement Swapping between PPT Links.tex
 !A Qubit Forbids Entanglement Swapping between PPT Links.pdf
+
+# Lean source, verification material, and its scoped license
+!formalization/
+!formalization/qubit_anywhere/
+!formalization/qubit_anywhere/**

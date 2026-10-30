@@ -1,0 +1,496 @@
+Lean (version 4.29.1, arm64-apple-darwin24.6.0, commit f72c35b3f637c8c6571d353742168ab66cc22c00, Release)
+Dependency snapshot passed: 10232 compiled files match the pinned-source cache archives.
+Inventory: 58 project modules, all imported and rebuilt.
+{
+  "PPTQubit.lean": "922c1a9d0feb87a3604e247ae7887c956b1143942cfdcc8e55456a187a8ebc6e",
+  "PPTQubit/Adjoint.lean": "6e609e54240c385e0861c20e099bae55103680f440d1c28cf21cf38cd181fe37",
+  "PPTQubit/Auxiliary.lean": "fad046d2ee44555c9ce862bc512932866b845d0427708e422f762160acf8d533",
+  "PPTQubit/AuxiliaryInterface.lean": "1ee1cd81a08e2164f85b38be3eb415112705f422f416400d617cf5309f485db6",
+  "PPTQubit/BlockStructure.lean": "0870f6499857952a223cb54bf9be1d81d90835d4dfe831191260ba61a229c7ae",
+  "PPTQubit/BlockWitness.lean": "7a16710b87319a264b589efc0baf2b9ce4affd9a08c01f37b73095c92c21264d",
+  "PPTQubit/ChoiCorrespondence.lean": "216212b21f37a3d07739dc2f1fee8989f6ced068e10ce8923c46653ba83c0d25",
+  "PPTQubit/ChoiDecomposition.lean": "fb6c2e08ce1b2a098739edbe1c4f506cb0321bf42f810b9c7aba5375f0e86e08",
+  "PPTQubit/ChoiIterated.lean": "d22eaa223290244e96b14287f7aaa5e47ae7ddac16c873b38628550cc57e635b",
+  "PPTQubit/ChoiPivot.lean": "5b1d83d406720be2e12f785021c7ca96b6f500256928ffe13e02645c75b6dead",
+  "PPTQubit/ChoiTensor.lean": "ca29ee24f2840b3352117cedb77db11f6799343838d5288b82a9ac36ad0060d3",
+  "PPTQubit/Endpoints.lean": "4b25839465a69c083aad0a671e497d5466f17de5e8539fb237993cd71db81cca",
+  "PPTQubit/FiniteConic.lean": "e185515544d462d36d95fd1cebc441dd907bc79fad071a7c13c076300b36254e",
+  "PPTQubit/GeneralBlock.lean": "bb504bdf73a31dfbab89996e2dbc5eb657a6ad79b218da45c41b748bdefea64e",
+  "PPTQubit/GeneralDecomposition.lean": "355d6633d28b9984f2ea8714b0f7b02603f64fc5297af6872636203534bfcddd",
+  "PPTQubit/GramDecomposition.lean": "8b9f42da04897cdd729ff109ea7041018980c2c48bc3d3ea504f2271d1765e22",
+  "PPTQubit/HermitianExtension.lean": "2025900c8c3c306a0dbe56b3abce4cd51377d5daef745405b272fb1337fcfcaa",
+  "PPTQubit/InvariantDecomposition.lean": "7fda4c2bed82de9b5fb0203b6785afc48d2cc58f5460faec915a9d8b39535297",
+  "PPTQubit/InvariantSchmidt.lean": "663a81ecd646658d8c67366cae44a2345be15f0dbd8e4f5a8d664924ce927a20",
+  "PPTQubit/KPositive.lean": "fb4076b9ee46612d55fa2474bbe13a1d6c0600d48e29757bd813343d14ca3d5c",
+  "PPTQubit/LocalOperations.lean": "78476228818d7418581bccf8ed5af9662524b0955f0aff5cb7eca02badf686e1",
+  "PPTQubit/LowSchmidtEffect.lean": "bc3a6bfcf0673ee1b97a0ecb10227b2c75457a91341b61242db4abd99284f545",
+  "PPTQubit/MatrixMaps.lean": "092ba2d295fcf314176f9c1b5d28ab735c688556f926c69194657f68afcfbb7f",
+  "PPTQubit/MiddleQubit.lean": "c63a24d0d7a48cd591c597f98ec053a0ed250a2ff1a32573420a4f8c718012ae",
+  "PPTQubit/MinimalGram.lean": "c1442f684820f505502ea7f841ca87f8f50755ef4bbe729a7b60d47c14b45e90",
+  "PPTQubit/MinorRank.lean": "351d6aa9ab6b3b6cb222863fd4013d03a83d205e253f4d3a65a373b66041f4a3",
+  "PPTQubit/PPTPairing.lean": "2ca7dbe9bd7dd768d54cf26a8662b52d1f9cdd12ba36aed64bc3fccf132d5c61",
+  "PPTQubit/PureBlockStructure.lean": "b48ae09f73da24010c802b59c2f9022f335d23605a6e2a69ac0555947a265fdb",
+  "PPTQubit/QubitLink.lean": "c570eb283b4907a4c33666f37c8b9e95623762229c180cb50a4840604f112871",
+  "PPTQubit/QubitNormalization.lean": "4d159af6e8ebd92ab7fada8c50b234950291a228ba8abc4ca4d3cd9a6faa213d",
+  "PPTQubit/QubitPairing.lean": "7facb9fb6b650ef733d6f5c80380895fe2fe9f0ef340f76ec36a5ef7cbb7f402",
+  "PPTQubit/QubitRowContraction.lean": "76ad3300fb33896f4aecae85eda2b7466df60f43dec9578c9c0b3fe42b8897bc",
+  "PPTQubit/QubitSeparability.lean": "c92df33e3a25e7e26be78ff9cc79d1b4cbae81f9e5a1b4fd0aefa37884569c2b",
+  "PPTQubit/QutritPPTAction.lean": "ac0fe900773211118e6fc0e90507016d7ebae623ec604d6c84abecf16fa95069",
+  "PPTQubit/RealCombination.lean": "c857aff2da2d9f0c7da865e2a85ab04d08829a266f59c9a50e25ad35469ad499",
+  "PPTQubit/RealDualWitness.lean": "a8355d92aa9b905bdd829ed4d09451d32d74185721acd4bf04cbc8049fa8b2c2",
+  "PPTQubit/RealPlanes.lean": "d42f96e30c50077c5089a210364b85b763d254b8a74fa62434c4c5e92c9c38ff",
+  "PPTQubit/RectangularChain.lean": "e14f33ad74edc322c5363faaa336fa4171b9af9978a7ef165c9a3d6ba950717f",
+  "PPTQubit/RowContraction.lean": "1677eced1ea08c1bab68eba29a39cd47cccdae7f7d5d951bbd62d786d570ee2a",
+  "PPTQubit/Schmidt.lean": "037ad4fa69c0ea47be2d0df35f29e4b31fa616cd55eab4f673e741e53d97a440",
+  "PPTQubit/SchmidtCompact.lean": "c47a90511a8ae45c2015709b2f79ec00ff08e3401de418420af4c9a5ddea5e6f",
+  "PPTQubit/SchmidtCone.lean": "ac6f376cc3c41ad9a28a3a92197309fbe151735e41818d9f807381ee12a19245",
+  "PPTQubit/SchmidtConsequences.lean": "70f5e7dcadb7c22eec32315e678eee11d268c72cbde3fb2b9ec2f4d5f388cc73",
+  "PPTQubit/SchmidtFiniteCone.lean": "f58b7e7654ba203eda8ee3072d568ba277e2f0884be6912abd960e6ca1f79e98",
+  "PPTQubit/SchmidtIteration.lean": "579972366a4cd493614098dfeeee0a3c13e895bd4128bfe2bb6cbcbc5a62e5a8",
+  "PPTQubit/SchmidtNumber.lean": "0b0a6166d4a45a2a01650972df058ad84305d6bbbf87e3ba969a58c3ed7ed93d",
+  "PPTQubit/SchmidtRank.lean": "aae5342716ded797e966f0b451a6f71efe24e7784ad9ad35aa52df79ce708e80",
+  "PPTQubit/SecondOperations.lean": "36902d1b1cb87024afd23499bbc45410bb43f0029d1364ff2bc30cba80e5e420",
+  "PPTQubit/SeparableTensor.lean": "6241edd623bd9b0ebd16a9646b97eb741313efb7cafc9fcac64002e6acc984eb",
+  "PPTQubit/SingularDecomposition.lean": "67f798fa5ac2a70dc0f0990123edcc45ef44379a096e7b9074d74db014fc0d8d",
+  "PPTQubit/SingularSupport.lean": "af15af667ee23108fd82f952deead875bdb25dfacb2fb9a0b353fac25ae27e19",
+  "PPTQubit/SpectralSeparability.lean": "3bc429f1d305a4504213a655217b98b8b763b8cb1c2846538077fd21cf9ecf0d",
+  "PPTQubit/SpectralTools.lean": "1317f16c579302ebdca47003214c577de244af288ea047211ee987216de72065",
+  "PPTQubit/StructuredTrimming.lean": "bd82c76a28d0a8367cc594476945e8d50506d17671e5163696403243933b09c9",
+  "PPTQubit/SupportCompression.lean": "a07df672880221db22689ee121443fc145501abbe3d7b15bdf81287c156260e7",
+  "PPTQubit/SupportSquareRoots.lean": "68b4252a9dc777d275b2395e7274411b6e8a92973ecca10e6be4b49b1b1dab37",
+  "PPTQubit/Swapping.lean": "7448ab544286cdbc4db720e700928f0c09b1f7bd994f94228569932e47e9d95c",
+  "PPTQubit/Unconditional.lean": "ca82ebd425e9d14b1a8ce7281e153d16ccde0a80e6b619c5d267b07ad3ffe0a6",
+  "PPTQubit/WitnessClosed.lean": "2690e5aac1c19b7572d8c5571a3333a673806ca8feb31fcbe62498772b77f403",
+  "audit.sh": "e04d50b764e0fe4fa3e105f369bf453fc0eb2a04b39ef65a39a5730aaa93f123",
+  "audit/Check.lean": "7f5c5b21a925343d1f6f34add3b29f89fccc31e10b138318b9eeaf61652a2d24",
+  "audit/Coverage.lean": "7bd97b082d8ae685f13dd9ea2cff22a68a9c9ea1e283f2d23a9934f4dd905a1e",
+  "audit/Semantics.lean": "ee0687d8770164fddb18f615adb14014558d073b38d8697df710283140159fa6",
+  "audit/check-cache.py": "b96ef97d09c35c0e1e7b9f8eaa8d35586d958feec0aa8890850010537c7be606",
+  "audit/dependency-audit.json": "f234b9f55aa6aa84645eccfd43525fe4e7e64df37a2e342693cb8d72334d19e2",
+  "audit/dependency-cache-keys.tsv": "3123cb4e7e6ef8e8d5f8dee8e158c9408167a13354cfa3329d365481263671ed",
+  "audit/dependency-cache-sha256.json": "636426f9c087a44adbe6f78bcd9640be050c16f4c50460281127df078c70c5e5",
+  "audit/inventory.py": "5bfd3846aeccb28514375951d4cf0a37a3422eea9285ff6207d56f9740e37efb",
+  "lakefile.lean": "830550742b2324407da6ace36b4dd3ace1c4685250942413cecd1bd8720829f4",
+  "lean-toolchain": "7dc000621e0046d1aada809e2b7177e64454645cf4c741e9daaf79c99ec2e7a2",
+  "manuscript_sha256": "e8fb279e8c65cc742185806cbc208e0c6a1332a5549a8ae376b3f6ffd6ce7bb3",
+  "verify-cached.sh": "88ab2c3ac0e6de5258973bc3304d19464c8a9ca17589e20aa003e665ff4d2f45"
+}
+'PPTQubit.schur_from_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.input_block_psd_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.auxiliary_lift_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.auxiliary_physical_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.auxiliary_positive_definite_corner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.psd_commuting_generalized_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.explicit_hermitian_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.real_eigenvalue_annihilator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.gram_eigenbasis_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.gram_rank_one_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.conditional_real_hyperplanes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.exists_independent_columns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.exists_nonzero_minor_of_le_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.rank_le_of_minors_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.le_rank_iff_exists_nonzero_minor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.rank_le_iff_minors_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.rank_le_one_of_cols_in_line' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.rank_le_zero_of_one_minors_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.rank_le_one_of_two_minors_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.rank_le_one_iff_two_minors_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.full_rank_two_columns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.realCombination_single' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.realCombination_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.realCombination_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.maximal_real_combination' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.maximal_real_combination_pencil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.complex_polynomial_vanishing_on_reals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.determinant_pencil_vanishing_on_reals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.minor_pencil_vanishing_on_reals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.submatrix_rank_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.large_minor_det_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.maximal_real_pencil_large_minors_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.real_combinations_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.positive_marginal_no_common_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.full_rank_one_column' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.complex_pencil_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.complex_pencil_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.kernel_inclusion_of_complex_pencil_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.full_rank_of_maximal_kernel_common' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.full_rank_of_complex_pencil_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.full_rank_of_real_to_complex_pencil_principle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.full_rank_of_rank_from_minors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.full_rank_real_combination' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.full_rank_real_combination_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.gram_unit_of_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.full_rank_two_columns_hermitian_extensions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.full_rank_hermitian_extensions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.combination_adjoint_mulVec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.full_rank_spectral_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.exists_real_nonparallel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.real_hyperplane_decomposition_of_full_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.two_column_real_hyperplane_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.real_hyperplane_decomposition_of_rank_from_minors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.real_hyperplane_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.real_hyperplane_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_decomposable_trace_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.partialTransposeFirst_trace_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.psd_trace_mul_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.psd_gram_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.gram_cross_of_partialTranspose_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.partialTraceFirst_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.pt_invariant_real_hyperplane_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.singular_hermitian_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.singular_spectral_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.singular_real_hyperplane_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.psd_minimal_gram_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.psd_support_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.marginal_kernel_is_common' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.gram_support_compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.secondFactorCompression_partialTranspose' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.positive_operator_support_compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.pt_invariant_real_hyperplane_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.rank_le_number_of_rank_one_terms' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.qubit_pt_invariant_product_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.qubit_pt_invariant_separable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.separable_block_positive_trace_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.qubit_invariant_block_positive_ppt_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.real_restriction_transpose_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.map_entry_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.real_restriction_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.real_qutrit_plane_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.localCongruence_ppt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.localCongruence_separable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.separable_finite_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.choi_block_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.applySecond_pure_choi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_map_iff_complete_ppt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.entanglementBreaking_iff_choi_separable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.choi_comp_transposeDual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.choi_mapFromChoi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.mapFromChoi_choi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.transposeDual_ppt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_map_qutrit_invariant_separable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.qubit_ppt_auxiliary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.qubit_ppt_state_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_composition_qubit_input' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_composition_qubit_output' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_composition_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_composition_two_entanglement_breaking' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.hermitian_row_contraction_separable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.qubitComponents_row_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.qubit_ppt_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.qubitLink_ppt_separable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_composition_qubit_middle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_composition_qubit_anywhere' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.swapping_positive_effect_separable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.swappingOutcome_partial_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_pair_schmidt_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.completely_positive_preserves_schmidt_number' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.schmidt_rank_iff_matrix_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.schmidtNumber_le_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.schmidtNumber_le_one_iff_separable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.TrimChain.schmidt_iteration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.square_power_entanglement_breaking_of_trimming' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.TrimChain.ancilla_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.square_index_bound_of_trimming' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_qubit_index_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.TrimChain.schmidt_number_decay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_pair_schmidt_number_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.hsAdjoint_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_pair_adjoint_two_eb' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.two_eb_schmidt_trimming_of_block_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_index_of_block_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_pair_trimming_easy_ranges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_pair_numeric_easy_ranges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.pt_invariant_schmidt_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.pure_qubit_pt_zero_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.pure_principal_blocks_rank_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.rank_one_principal_blocks_separable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.maximal_block_structure_rank_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.block_structure_implies_maximal_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_index_of_block_structure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.kpositive_implies_choi_kblock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.choi_kblock_implies_kpositive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.kblock_iff_schmidt_pairing_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.two_positive_choi_pivot_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.two_positive_choi_pivot_component' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.schur_pivot_matrix_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.choi_pivot_residual_kpositive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.choi_decomposition_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.choi_decomposition_list' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.schmidtCone_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.closed_cone_strict_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.real_linear_trace_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.real_linear_hermitian_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.block_structure_from_schmidt_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_index_of_schmidt_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.schmidt_witness_of_closed_cone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_index_of_closed_schmidt_cones' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.PPTPairChain.schmidt_iteration_of_closed_cones' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.schmidt_rank_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.schmidt_unit_projectors_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.schmidt_number_normalized_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.schmidt_projector_normalize' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.schmidtCone_zero_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.schmidtCone_closed_of_dim_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.matrix_psd_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+PPTQubit/FiniteConic.lean:14:0: warning: automatically included section variable(s) unused in theorem `PPTQubit.boundedWeightedSums_compact`:
+  [T2Space E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [T2Space E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'PPTQubit.fixedConicSums_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+PPTQubit/FiniteConic.lean:77:0: warning: automatically included section variable(s) unused in theorem `PPTQubit.conic_compress`:
+  [TopologicalSpace E]
+  [T2Space E]
+  [ContinuousAdd E]
+  [ContinuousSMul ℝ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace E] [T2Space E] [ContinuousAdd E] [ContinuousSMul ℝ E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'PPTQubit.conic_compress' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.finiteConicHull_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+PPTQubit/SchmidtFiniteCone.lean:78:56: warning: This simp argument is unused:
+  Complex.mul_re
+
+Hint: Omit it from the simp argument list.
+  simp [̵M̵a̵t̵r̵i̵x̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵,̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵r̵e̵,̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵i̵m̵,̵C̵o̵m̵p̵l̵e̵x̵.̵s̵m̵u̵l̵_̵r̵e̵,̵C̵o̵m̵p̵l̵e̵x̵.̵s̵m̵u̵l̵_̵i̵m̵]̵[̲M̲a̲t̲r̲i̲x̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲,̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲m̲u̲l̲_̲i̲m̲,̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲s̲m̲u̲l̲_̲r̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲s̲m̲u̲l̲_̲i̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+PPTQubit/SchmidtFiniteCone.lean:78:71: warning: This simp argument is unused:
+  Complex.mul_im
+
+Hint: Omit it from the simp argument list.
+  simp [̵M̵a̵t̵r̵i̵x̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵,̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵r̵e̵,̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵i̵m̵,̵C̵o̵m̵p̵l̵e̵x̵.̵s̵m̵u̵l̵_̵r̵e̵,̵C̵o̵m̵p̵l̵e̵x̵.̵s̵m̵u̵l̵_̵i̵m̵]̵[̲M̲a̲t̲r̲i̲x̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲,̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲m̲u̲l̲_̲r̲e̲,̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲s̲m̲u̲l̲_̲r̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲s̲m̲u̲l̲_̲i̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+PPTQubit/SchmidtFiniteCone.lean:78:86: warning: This simp argument is unused:
+  Complex.smul_re
+
+Hint: Omit it from the simp argument list.
+  simp [̵M̵a̵t̵r̵i̵x̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵,̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵r̵e̵,̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵i̵m̵,̵C̵o̵m̵p̵l̵e̵x̵.̵s̵m̵u̵l̵_̵r̵e̵,̵C̵o̵m̵p̵l̵e̵x̵.̵s̵m̵u̵l̵_̵i̵m̵]̵[̲M̲a̲t̲r̲i̲x̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲,̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲m̲u̲l̲_̲r̲e̲,̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲m̲u̲l̲_̲i̲m̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲s̲m̲u̲l̲_̲i̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+PPTQubit/SchmidtFiniteCone.lean:78:102: warning: This simp argument is unused:
+  Complex.smul_im
+
+Hint: Omit it from the simp argument list.
+  simp [̵M̵a̵t̵r̵i̵x̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵,̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵r̵e̵,̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵i̵m̵,̵C̵o̵m̵p̵l̵e̵x̵.̵s̵m̵u̵l̵_̵r̵e̵,̵C̵o̵m̵p̵l̵e̵x̵.̵s̵m̵u̵l̵_̵i̵m̵]̵[̲M̲a̲t̲r̲i̲x̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲,̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲m̲u̲l̲_̲r̲e̲,̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲m̲u̲l̲_̲i̲m̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲s̲m̲u̲l̲_̲r̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+PPTQubit/SchmidtFiniteCone.lean:91:54: warning: This simp argument is unused:
+  Complex.mul_re
+
+Hint: Omit it from the simp argument list.
+  simp [̵M̵a̵t̵r̵i̵x̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵,̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵r̵e̵,̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵i̵m̵,̵C̵o̵m̵p̵l̵e̵x̵.̵s̵m̵u̵l̵_̵r̵e̵,̵C̵o̵m̵p̵l̵e̵x̵.̵s̵m̵u̵l̵_̵i̵m̵]̵[̲M̲a̲t̲r̲i̲x̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲,̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲m̲u̲l̲_̲i̲m̲,̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲s̲m̲u̲l̲_̲r̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲s̲m̲u̲l̲_̲i̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+PPTQubit/SchmidtFiniteCone.lean:91:69: warning: This simp argument is unused:
+  Complex.mul_im
+
+Hint: Omit it from the simp argument list.
+  simp [̵M̵a̵t̵r̵i̵x̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵,̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵r̵e̵,̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵i̵m̵,̵C̵o̵m̵p̵l̵e̵x̵.̵s̵m̵u̵l̵_̵r̵e̵,̵C̵o̵m̵p̵l̵e̵x̵.̵s̵m̵u̵l̵_̵i̵m̵]̵[̲M̲a̲t̲r̲i̲x̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲,̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲m̲u̲l̲_̲r̲e̲,̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲s̲m̲u̲l̲_̲r̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲s̲m̲u̲l̲_̲i̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+PPTQubit/SchmidtFiniteCone.lean:91:84: warning: This simp argument is unused:
+  Complex.smul_re
+
+Hint: Omit it from the simp argument list.
+  simp [̵M̵a̵t̵r̵i̵x̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵,̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵r̵e̵,̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵i̵m̵,̵C̵o̵m̵p̵l̵e̵x̵.̵s̵m̵u̵l̵_̵r̵e̵,̵C̵o̵m̵p̵l̵e̵x̵.̵s̵m̵u̵l̵_̵i̵m̵]̵[̲M̲a̲t̲r̲i̲x̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲,̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲m̲u̲l̲_̲r̲e̲,̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲m̲u̲l̲_̲i̲m̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲s̲m̲u̲l̲_̲i̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+PPTQubit/SchmidtFiniteCone.lean:91:100: warning: This simp argument is unused:
+  Complex.smul_im
+
+Hint: Omit it from the simp argument list.
+  simp [̵M̵a̵t̵r̵i̵x̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵,̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵r̵e̵,̵C̵o̵m̵p̵l̵e̵x̵.̵m̵u̵l̵_̵i̵m̵,̵C̵o̵m̵p̵l̵e̵x̵.̵s̵m̵u̵l̵_̵r̵e̵,̵C̵o̵m̵p̵l̵e̵x̵.̵s̵m̵u̵l̵_̵i̵m̵]̵[̲M̲a̲t̲r̲i̲x̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲,̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲m̲u̲l̲_̲r̲e̲,̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲m̲u̲l̲_̲i̲m̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲C̲o̲m̲p̲l̲e̲x̲.̲s̲m̲u̲l̲_̲r̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'PPTQubit.schmidtCone_eq_finiteConicHull' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.schmidtCone_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.maximal_schmidt_block_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_pair_trimming' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.PPTPairChain.schmidt_iteration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.PPTPairChain.schmidt_number_decay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.PPTPairChain.entanglement_breaking' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.PPTPairChain.ancilla_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_power_entanglement_breaking' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.ppt_index_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.swapping_schmidt_number_two_effect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.swapping_schmidt_two_effect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.principal_block_structure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.PPTChain.entanglement_breaking_rectangular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.PPTChain.schmidt_iteration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTQubit.PPTChain.entanglement_breaking_input' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTAudit.ppt_map_iff_cp_and_ccp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTAudit.bell_not_ppt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTAudit.identity_not_ppt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTAudit.zero_schmidt_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTAudit.bell_schmidt_number_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTAudit.identity_not_eb' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTAudit.nonzero_ppt_map_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTAudit.odd_chain_output_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTAudit.zero_effect_no_qubit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PPTAudit.general_three_by_three_block' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT PASS: 794 project declarations, 599 theorem declarations (including generated declarations).
+Transitive axioms: [propext, Classical.choice, Quot.sound]
+theorem PPTQubit.ppt_composition_qubit_anywhere : ∀ {m n d : ℕ} (S : PPTQubit.MatrixMap m n)
+  (T : PPTQubit.MatrixMap n d),
+  PPTQubit.IsPPTMap S → PPTQubit.IsPPTMap T → m = 2 ∨ n = 2 ∨ d = 2 → PPTQubit.IsEntanglementBreaking (T ∘ₗ S)
+theorem PPTQubit.swapping_positive_effect_separable : ∀ {a b c d : ℕ} (R : Matrix (Fin a × Fin b) (Fin a × Fin b) ℂ)
+  (S : Matrix (Fin c × Fin d) (Fin c × Fin d) ℂ) (M : Matrix (Fin b × Fin c) (Fin b × Fin c) ℂ),
+  PPTQubit.IsPPT R →
+    PPTQubit.IsPPT S →
+      M.PosSemidef → a = 2 ∨ b = 2 ∨ c = 2 ∨ d = 2 → PPTQubit.IsSeparable ((PPTQubit.swappingOutcome R S) M)
+theorem PPTQubit.swappingOutcome_partial_trace : ∀ {a b c d : ℕ} (R : Matrix (Fin a × Fin b) (Fin a × Fin b) ℂ)
+  (S : Matrix (Fin c × Fin d) (Fin c × Fin d) ℂ) (M : Matrix (Fin b × Fin c) (Fin b × Fin c) ℂ),
+  (PPTQubit.swappingOutcome R S) M = PPTQubit.traceRelay (R.kronecker S * PPTQubit.relayEffectLift M)
+theorem PPTQubit.ppt_pair_adjoint_two_eb : ∀ {p q r : ℕ} (S : PPTQubit.MatrixMap p q) (T : PPTQubit.MatrixMap q r),
+  PPTQubit.IsPPTMap S → PPTQubit.IsPPTMap T → PPTQubit.IsTwoEntanglementBreaking (PPTQubit.hsAdjoint (T ∘ₗ S))
+theorem PPTQubit.pt_invariant_real_hyperplane_decomposition : ∀ {p m : ℕ}
+  (Q : Matrix (Fin (p + 2) × Fin m) (Fin (p + 2) × Fin m) ℂ),
+  Q.PosSemidef →
+    PPTQubit.partialTransposeFirst Q = Q →
+      ∃ psi alpha,
+        (∀ (i j : Fin (p + 2) × Fin m), Q i j = ∑ s, psi s i * star (psi s j)) ∧
+          ∀ (s : Fin Q.rank), psi s ≠ 0 ∧ alpha s ≠ 0 ∧ ∀ (a : Fin m), ∑ i, ↑(alpha s i) * psi s (i, a) = 0
+theorem PPTQubit.schmidtCone_closed : ∀ {a b k : ℕ}, IsClosed (PPTQubit.SchmidtCone k)
+theorem PPTQubit.maximal_schmidt_block_criterion : PPTQubit.MaximalSchmidtBlockCriterion
+theorem PPTQubit.ppt_pair_trimming : ∀ {p q r : ℕ} (S : PPTQubit.MatrixMap p q) (T : PPTQubit.MatrixMap q r),
+  PPTQubit.IsPPTMap S → PPTQubit.IsPPTMap T → PPTQubit.SchmidtTrimming (T ∘ₗ S)
+theorem PPTQubit.PPTPairChain.schmidt_number_decay : ∀ {l p q n : ℕ} (C : PPTQubit.PPTPairChain l p q)
+  (Q : Matrix (Fin n × Fin p) (Fin n × Fin p) ℂ) (hQ : Q.PosSemidef),
+  ∃ (hOut : ((PPTQubit.applySecond C.toMap) Q).PosSemidef),
+    PPTQubit.schmidtNumber ((PPTQubit.applySecond C.toMap) Q) hOut ≤ max (PPTQubit.schmidtNumber Q hQ - l) 1
+theorem PPTQubit.PPTPairChain.entanglement_breaking : ∀ {l p q : ℕ} (C : PPTQubit.PPTPairChain l p q),
+  p ≤ l + 1 → PPTQubit.IsEntanglementBreaking C.toMap
+theorem PPTQubit.ppt_power_entanglement_breaking : ∀ {d : ℕ} (T : PPTQubit.MatrixMap d d),
+  PPTQubit.IsPPTMap T → 2 ≤ d → PPTQubit.IsEntanglementBreaking (T ^ (2 * (d - 1)))
+theorem PPTQubit.ppt_index_bound : ∀ {d : ℕ} (T : PPTQubit.MatrixMap d d),
+  PPTQubit.IsPPTMap T →
+    2 ≤ d →
+      ∃ (h : ∃ n, 0 < n ∧ PPTQubit.IsEntanglementBreaking (T ^ n)), PPTQubit.entanglementBreakingIndex T h ≤ 2 * (d - 1)
+theorem PPTQubit.swapping_schmidt_number_two_effect : ∀ {a b c d : ℕ} (R : Matrix (Fin a × Fin b) (Fin a × Fin b) ℂ)
+  (S : Matrix (Fin c × Fin d) (Fin c × Fin d) ℂ) (M : Matrix (Fin b × Fin c) (Fin b × Fin c) ℂ),
+  PPTQubit.IsPPT R →
+    PPTQubit.IsPPT S →
+      ∀ (hM : M.PosSemidef), PPTQubit.schmidtNumber M hM ≤ 2 → PPTQubit.IsSeparable ((PPTQubit.swappingOutcome R S) M)
+theorem PPTQubit.principal_block_structure : PPTQubit.PrincipalBlockStructure
+theorem PPTQubit.PPTChain.entanglement_breaking_rectangular : ∀ {N p q : ℕ} (C : PPTQubit.PPTChain N p q),
+  2 * (min p q - 1) ≤ N → PPTQubit.IsEntanglementBreaking C.toMap
+@[reducible] def PPTQubit.MatrixMap : ℕ → ℕ → Type :=
+fun p q => Matrix (Fin p) (Fin p) ℂ →ₗ[ℂ] Matrix (Fin q) (Fin q) ℂ
+def PPTQubit.IsPPT.{u_1, u_2} : {p : Type u_1} →
+  {m : Type u_2} → [Fintype p] → [Fintype m] → Matrix (p × m) (p × m) ℂ → Prop :=
+fun {p} {m} [Fintype p] [Fintype m] X => X.PosSemidef ∧ (PPTQubit.partialTransposeFirst X).PosSemidef
+def PPTQubit.IsPPTMap : {p q : ℕ} → PPTQubit.MatrixMap p q → Prop :=
+fun {p q} T => PPTQubit.IsPPT (PPTQubit.choi T)
+def PPTQubit.IsSeparable.{u_1, u_2} : {p : Type u_1} → {m : Type u_2} → Matrix (p × m) (p × m) ℂ → Prop :=
+fun {p} {m} Q => ∃ r v w, ∀ (i : p) (a : m) (j : p) (b : m), Q (i, a) (j, b) = ∑ s, v s i * w s a * star (v s j * w s b)
+def PPTQubit.IsEntanglementBreaking : {p q : ℕ} → PPTQubit.MatrixMap p q → Prop :=
+fun {p q} T =>
+  ∀ (n : ℕ) (X : Matrix (Fin n × Fin p) (Fin n × Fin p) ℂ),
+    X.PosSemidef → PPTQubit.IsSeparable ((PPTQubit.applySecond T) X)
+def PPTQubit.SchmidtRankAtMost : {a b : ℕ} → ℕ → (Fin a × Fin b → ℂ) → Prop :=
+fun {a b} k z => ∃ v w, ∀ (i : Fin a) (j : Fin b), z (i, j) = ∑ t, v t i * w t j
+def PPTQubit.SchmidtNumberAtMost : {a b : ℕ} → ℕ → Matrix (Fin a × Fin b) (Fin a × Fin b) ℂ → Prop :=
+fun {a b} k Q => ∃ r z, Q = ∑ t, PPTQubit.pureProjector (z t) ∧ ∀ (t : Fin r), PPTQubit.SchmidtRankAtMost k (z t)
+def PPTQubit.SchmidtTrimming : {p q : ℕ} → PPTQubit.MatrixMap p q → Prop :=
+fun {p q} T =>
+  ∀ (n k : ℕ) (Q : Matrix (Fin n × Fin p) (Fin n × Fin p) ℂ),
+    PPTQubit.SchmidtNumberAtMost k Q → PPTQubit.SchmidtNumberAtMost (max (k - 1) 1) ((PPTQubit.applySecond T) Q)
+def PPTQubit.PrincipalBlockStructure : Prop :=
+∀ (n q : ℕ) (Q : Matrix (Fin n × Fin q) (Fin n × Fin q) ℂ) (hQ : Q.PosSemidef) (l k : ℕ),
+  n ≤ q →
+    2 ≤ l →
+      l ≤ PPTQubit.schmidtNumber Q hQ →
+        k + l = n + 2 →
+          ∀ (f : Fin k → Fin n),
+            Function.Injective f →
+              ¬PPTQubit.SchmidtNumberAtMost (PPTQubit.schmidtNumber Q hQ - l + 1) (PPTQubit.principalBlock f Q)
+Replaying the complete project and imported declarations in a fresh Lean kernel environment.
+Kernel replay passed.
+Inventory: 58 project modules, all imported and rebuilt.
+{
+  "PPTQubit.lean": "922c1a9d0feb87a3604e247ae7887c956b1143942cfdcc8e55456a187a8ebc6e",
+  "PPTQubit/Adjoint.lean": "6e609e54240c385e0861c20e099bae55103680f440d1c28cf21cf38cd181fe37",
+  "PPTQubit/Auxiliary.lean": "fad046d2ee44555c9ce862bc512932866b845d0427708e422f762160acf8d533",
+  "PPTQubit/AuxiliaryInterface.lean": "1ee1cd81a08e2164f85b38be3eb415112705f422f416400d617cf5309f485db6",
+  "PPTQubit/BlockStructure.lean": "0870f6499857952a223cb54bf9be1d81d90835d4dfe831191260ba61a229c7ae",
+  "PPTQubit/BlockWitness.lean": "7a16710b87319a264b589efc0baf2b9ce4affd9a08c01f37b73095c92c21264d",
+  "PPTQubit/ChoiCorrespondence.lean": "216212b21f37a3d07739dc2f1fee8989f6ced068e10ce8923c46653ba83c0d25",
+  "PPTQubit/ChoiDecomposition.lean": "fb6c2e08ce1b2a098739edbe1c4f506cb0321bf42f810b9c7aba5375f0e86e08",
+  "PPTQubit/ChoiIterated.lean": "d22eaa223290244e96b14287f7aaa5e47ae7ddac16c873b38628550cc57e635b",
+  "PPTQubit/ChoiPivot.lean": "5b1d83d406720be2e12f785021c7ca96b6f500256928ffe13e02645c75b6dead",
+  "PPTQubit/ChoiTensor.lean": "ca29ee24f2840b3352117cedb77db11f6799343838d5288b82a9ac36ad0060d3",
+  "PPTQubit/Endpoints.lean": "4b25839465a69c083aad0a671e497d5466f17de5e8539fb237993cd71db81cca",
+  "PPTQubit/FiniteConic.lean": "e185515544d462d36d95fd1cebc441dd907bc79fad071a7c13c076300b36254e",
+  "PPTQubit/GeneralBlock.lean": "bb504bdf73a31dfbab89996e2dbc5eb657a6ad79b218da45c41b748bdefea64e",
+  "PPTQubit/GeneralDecomposition.lean": "355d6633d28b9984f2ea8714b0f7b02603f64fc5297af6872636203534bfcddd",
+  "PPTQubit/GramDecomposition.lean": "8b9f42da04897cdd729ff109ea7041018980c2c48bc3d3ea504f2271d1765e22",
+  "PPTQubit/HermitianExtension.lean": "2025900c8c3c306a0dbe56b3abce4cd51377d5daef745405b272fb1337fcfcaa",
+  "PPTQubit/InvariantDecomposition.lean": "7fda4c2bed82de9b5fb0203b6785afc48d2cc58f5460faec915a9d8b39535297",
+  "PPTQubit/InvariantSchmidt.lean": "663a81ecd646658d8c67366cae44a2345be15f0dbd8e4f5a8d664924ce927a20",
+  "PPTQubit/KPositive.lean": "fb4076b9ee46612d55fa2474bbe13a1d6c0600d48e29757bd813343d14ca3d5c",
+  "PPTQubit/LocalOperations.lean": "78476228818d7418581bccf8ed5af9662524b0955f0aff5cb7eca02badf686e1",
+  "PPTQubit/LowSchmidtEffect.lean": "bc3a6bfcf0673ee1b97a0ecb10227b2c75457a91341b61242db4abd99284f545",
+  "PPTQubit/MatrixMaps.lean": "092ba2d295fcf314176f9c1b5d28ab735c688556f926c69194657f68afcfbb7f",
+  "PPTQubit/MiddleQubit.lean": "c63a24d0d7a48cd591c597f98ec053a0ed250a2ff1a32573420a4f8c718012ae",
+  "PPTQubit/MinimalGram.lean": "c1442f684820f505502ea7f841ca87f8f50755ef4bbe729a7b60d47c14b45e90",
+  "PPTQubit/MinorRank.lean": "351d6aa9ab6b3b6cb222863fd4013d03a83d205e253f4d3a65a373b66041f4a3",
+  "PPTQubit/PPTPairing.lean": "2ca7dbe9bd7dd768d54cf26a8662b52d1f9cdd12ba36aed64bc3fccf132d5c61",
+  "PPTQubit/PureBlockStructure.lean": "b48ae09f73da24010c802b59c2f9022f335d23605a6e2a69ac0555947a265fdb",
+  "PPTQubit/QubitLink.lean": "c570eb283b4907a4c33666f37c8b9e95623762229c180cb50a4840604f112871",
+  "PPTQubit/QubitNormalization.lean": "4d159af6e8ebd92ab7fada8c50b234950291a228ba8abc4ca4d3cd9a6faa213d",
+  "PPTQubit/QubitPairing.lean": "7facb9fb6b650ef733d6f5c80380895fe2fe9f0ef340f76ec36a5ef7cbb7f402",
+  "PPTQubit/QubitRowContraction.lean": "76ad3300fb33896f4aecae85eda2b7466df60f43dec9578c9c0b3fe42b8897bc",
+  "PPTQubit/QubitSeparability.lean": "c92df33e3a25e7e26be78ff9cc79d1b4cbae81f9e5a1b4fd0aefa37884569c2b",
+  "PPTQubit/QutritPPTAction.lean": "ac0fe900773211118e6fc0e90507016d7ebae623ec604d6c84abecf16fa95069",
+  "PPTQubit/RealCombination.lean": "c857aff2da2d9f0c7da865e2a85ab04d08829a266f59c9a50e25ad35469ad499",
+  "PPTQubit/RealDualWitness.lean": "a8355d92aa9b905bdd829ed4d09451d32d74185721acd4bf04cbc8049fa8b2c2",
+  "PPTQubit/RealPlanes.lean": "d42f96e30c50077c5089a210364b85b763d254b8a74fa62434c4c5e92c9c38ff",
+  "PPTQubit/RectangularChain.lean": "e14f33ad74edc322c5363faaa336fa4171b9af9978a7ef165c9a3d6ba950717f",
+  "PPTQubit/RowContraction.lean": "1677eced1ea08c1bab68eba29a39cd47cccdae7f7d5d951bbd62d786d570ee2a",
+  "PPTQubit/Schmidt.lean": "037ad4fa69c0ea47be2d0df35f29e4b31fa616cd55eab4f673e741e53d97a440",
+  "PPTQubit/SchmidtCompact.lean": "c47a90511a8ae45c2015709b2f79ec00ff08e3401de418420af4c9a5ddea5e6f",
+  "PPTQubit/SchmidtCone.lean": "ac6f376cc3c41ad9a28a3a92197309fbe151735e41818d9f807381ee12a19245",
+  "PPTQubit/SchmidtConsequences.lean": "70f5e7dcadb7c22eec32315e678eee11d268c72cbde3fb2b9ec2f4d5f388cc73",
+  "PPTQubit/SchmidtFiniteCone.lean": "f58b7e7654ba203eda8ee3072d568ba277e2f0884be6912abd960e6ca1f79e98",
+  "PPTQubit/SchmidtIteration.lean": "579972366a4cd493614098dfeeee0a3c13e895bd4128bfe2bb6cbcbc5a62e5a8",
+  "PPTQubit/SchmidtNumber.lean": "0b0a6166d4a45a2a01650972df058ad84305d6bbbf87e3ba969a58c3ed7ed93d",
+  "PPTQubit/SchmidtRank.lean": "aae5342716ded797e966f0b451a6f71efe24e7784ad9ad35aa52df79ce708e80",
+  "PPTQubit/SecondOperations.lean": "36902d1b1cb87024afd23499bbc45410bb43f0029d1364ff2bc30cba80e5e420",
+  "PPTQubit/SeparableTensor.lean": "6241edd623bd9b0ebd16a9646b97eb741313efb7cafc9fcac64002e6acc984eb",
+  "PPTQubit/SingularDecomposition.lean": "67f798fa5ac2a70dc0f0990123edcc45ef44379a096e7b9074d74db014fc0d8d",
+  "PPTQubit/SingularSupport.lean": "af15af667ee23108fd82f952deead875bdb25dfacb2fb9a0b353fac25ae27e19",
+  "PPTQubit/SpectralSeparability.lean": "3bc429f1d305a4504213a655217b98b8b763b8cb1c2846538077fd21cf9ecf0d",
+  "PPTQubit/SpectralTools.lean": "1317f16c579302ebdca47003214c577de244af288ea047211ee987216de72065",
+  "PPTQubit/StructuredTrimming.lean": "bd82c76a28d0a8367cc594476945e8d50506d17671e5163696403243933b09c9",
+  "PPTQubit/SupportCompression.lean": "a07df672880221db22689ee121443fc145501abbe3d7b15bdf81287c156260e7",
+  "PPTQubit/SupportSquareRoots.lean": "68b4252a9dc777d275b2395e7274411b6e8a92973ecca10e6be4b49b1b1dab37",
+  "PPTQubit/Swapping.lean": "7448ab544286cdbc4db720e700928f0c09b1f7bd994f94228569932e47e9d95c",
+  "PPTQubit/Unconditional.lean": "ca82ebd425e9d14b1a8ce7281e153d16ccde0a80e6b619c5d267b07ad3ffe0a6",
+  "PPTQubit/WitnessClosed.lean": "2690e5aac1c19b7572d8c5571a3333a673806ca8feb31fcbe62498772b77f403",
+  "audit.sh": "e04d50b764e0fe4fa3e105f369bf453fc0eb2a04b39ef65a39a5730aaa93f123",
+  "audit/Check.lean": "7f5c5b21a925343d1f6f34add3b29f89fccc31e10b138318b9eeaf61652a2d24",
+  "audit/Coverage.lean": "7bd97b082d8ae685f13dd9ea2cff22a68a9c9ea1e283f2d23a9934f4dd905a1e",
+  "audit/Semantics.lean": "ee0687d8770164fddb18f615adb14014558d073b38d8697df710283140159fa6",
+  "audit/check-cache.py": "b96ef97d09c35c0e1e7b9f8eaa8d35586d958feec0aa8890850010537c7be606",
+  "audit/dependency-audit.json": "f234b9f55aa6aa84645eccfd43525fe4e7e64df37a2e342693cb8d72334d19e2",
+  "audit/dependency-cache-keys.tsv": "3123cb4e7e6ef8e8d5f8dee8e158c9408167a13354cfa3329d365481263671ed",
+  "audit/dependency-cache-sha256.json": "636426f9c087a44adbe6f78bcd9640be050c16f4c50460281127df078c70c5e5",
+  "audit/inventory.py": "5bfd3846aeccb28514375951d4cf0a37a3422eea9285ff6207d56f9740e37efb",
+  "lakefile.lean": "830550742b2324407da6ace36b4dd3ace1c4685250942413cecd1bd8720829f4",
+  "lean-toolchain": "7dc000621e0046d1aada809e2b7177e64454645cf4c741e9daaf79c99ec2e7a2",
+  "manuscript_sha256": "e8fb279e8c65cc742185806cbc208e0c6a1332a5549a8ae376b3f6ffd6ce7bb3",
+  "verify-cached.sh": "88ab2c3ac0e6de5258973bc3304d19464c8a9ca17589e20aa003e665ff4d2f45"
+}
+Full audit passed.

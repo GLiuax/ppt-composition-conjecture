@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-29",
+  "project_module_count": 55,
+  "clean_source_build": "passed",
+  "definition_and_boundary_proofs": "passed",
+  "project_and_audit_axiom_check": "passed",
+  "kernel_replay_command": "leanchecker --fresh PPTQubit",
+  "kernel_replay": "passed",
+  "required_dependency_modules": 2558,
+  "matched_dependency_artifacts": 10232,
+  "dependency_artifact_mismatches": 0,
+  "original_proof_sources_unchanged": true,
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "full_lake_installation_tested": false,
+  "note": "The raw run log begins with the initial inventory. Audit helpers were refined during the run; source-inventory.log records their final versions. The 55 proof modules and project entry point were unchanged."
+}
